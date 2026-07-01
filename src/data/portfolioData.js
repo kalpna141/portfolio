@@ -76,7 +76,7 @@ export const projects = [
     name: "Uplevelit Marketplace Platform",
     company: "Bizdesire",
     description:
-      "Scalable creator/admin marketplace platform with role-based access and secure APIs. Integrated Stripe payments and Twilio communication services, and built backend automation workflows for subscriptions and notifications.",
+      "Three-sided marketplace with User, Creator, and Admin roles. Creators take paid subscriptions to offer events, sessions, paid Q&A, and resources; users can book and join 1:1 or group sessions and events via Twilio, with Stripe handling all payments. Admins manage and oversee both users and creators.",
     tech: ["React", "Node.js", "Express", "Firebase", "Stripe", "Twilio", "SendGrid"],
     link: "https://uplevelit.com",
   },
