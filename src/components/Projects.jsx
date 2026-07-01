@@ -24,17 +24,6 @@ export default function Projects() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent text-xl">
                   <FiFolder />
                 </span>
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-muted transition-colors hover:text-accent"
-                    aria-label={`Visit ${project.name}`}
-                  >
-                    <FiExternalLink className="text-lg" />
-                  </a>
-                )}
               </div>
 
               <h3 className="text-lg font-semibold text-text">{project.name}</h3>
@@ -53,6 +42,17 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-2 transition-colors"
+                >
+                  Visit Site <FiExternalLink />
+                </a>
+              )}
             </motion.div>
           ))}
         </div>

@@ -78,15 +78,15 @@ export const projects = [
     description:
       "Scalable creator/admin marketplace platform with role-based access and secure APIs. Integrated Stripe payments and Twilio communication services, and built backend automation workflows for subscriptions and notifications.",
     tech: ["React", "Node.js", "Express", "Firebase", "Stripe", "Twilio", "SendGrid"],
-    link: null,
+    link: "https://uplevelit.com",
   },
   {
-    name: "HatchIQ Learning Platform",
+    name: "Thalos",
     company: "Bizdesire",
     description:
-      "Cloud-based learning platform built with Next.js, Node.js, and MongoDB. Integrated AWS S3 for storage, implemented an email notification system, and optimized performance in an Agile delivery team.",
-    tech: ["Next.js", "Node.js", "MongoDB", "AWS S3", "SendGrid"],
-    link: null,
+      "Healthcare product platform where admins manage a product catalog and users can browse detailed product descriptions and complete purchases. Built with Next.js and Node.js, with AWS S3/SES for storage and automated communication.",
+    tech: ["Next.js", "Node.js", "MongoDB", "AWS S3", "AWS SES", "Tailwind CSS"],
+    link: "https://thaloshq.com",
   },
   {
     name: "Hear the Crowd",
