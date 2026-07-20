@@ -1,7 +1,8 @@
 export const profile = {
   name: "Kalpna Thakur",
   title: "MERN Stack Developer",
-  tagline: "2.5+ years building scalable full-stack apps, REST APIs, and automation workflows.",
+  tagline:
+    "2.5 years building scalable full-stack apps, REST APIs, and automation workflows.",
   location: "Mohali, Chandigarh, India",
   email: "kalpnathakurr@gmail.com",
   phone: "+91-8626881161",
@@ -19,15 +20,33 @@ export const skillGroups = [
   },
   {
     category: "Frontend",
-    skills: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Responsive Design"],
+    skills: [
+      "React.js",
+      "Next.js",
+      "Redux",
+      "Tailwind CSS",
+      "Responsive Design",
+    ],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "API Integration"],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "API Integration",
+    ],
   },
   {
     category: "Cloud & DevOps",
-    skills: ["AWS (S3, SES)", "Firebase", "Docker", "CI/CD Pipelines", "Apache"],
+    skills: [
+      "AWS (S3, SES)",
+      "Firebase",
+      "Docker",
+      "CI/CD Pipelines",
+      "Apache",
+    ],
   },
   {
     category: "Database",
@@ -44,8 +63,8 @@ export const experience = [
     role: "Software Engineer",
     company: "Bizdesire",
     location: "Mohali, India",
-    period: "02/2025 – Present",
-    current: true,
+    period: "02/2025 – 07/2026",
+    current: false,
     points: [
       "Developed and executed API testing workflows and automation scripts to validate backend services and improve system reliability.",
       "Designed and integrated REST APIs for admin dashboards and production-grade backend services.",
@@ -77,7 +96,15 @@ export const projects = [
     company: "Bizdesire",
     description:
       "Three-sided marketplace with User, Creator, and Admin roles. Creators take paid subscriptions to offer events, sessions, paid Q&A, and resources; users can book and join 1:1 or group sessions and events via Twilio, with Stripe handling all payments. Admins manage and oversee both users and creators.",
-    tech: ["React", "Node.js", "Express", "Firebase", "Stripe", "Twilio", "SendGrid"],
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Stripe",
+      "Twilio",
+      "SendGrid",
+    ],
     link: "https://uplevelit.com",
   },
   {
@@ -85,7 +112,14 @@ export const projects = [
     company: "Bizdesire",
     description:
       "Healthcare product platform where admins manage a product catalog and users can browse detailed product descriptions and complete purchases. Built with Next.js and Node.js, with AWS S3/SES for storage and automated communication.",
-    tech: ["Next.js", "Node.js", "MongoDB", "AWS S3", "AWS SES", "Tailwind CSS"],
+    tech: [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "AWS S3",
+      "AWS SES",
+      "Tailwind CSS",
+    ],
     link: "https://thaloshq.com",
   },
   {

@@ -5,7 +5,7 @@ import SectionHeading from "./SectionHeading";
 
 const facts = [
   { icon: <FiMapPin />, label: "Location", value: profile.location },
-  { icon: <FiCode />, label: "Experience", value: "2.5+ Years" },
+  { icon: <FiCode />, label: "Experience", value: "2.5 Years" },
   {
     icon: <FiBookOpen />,
     label: "Education",
@@ -46,7 +46,9 @@ export default function About() {
                   {fact.icon}
                 </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-muted">{fact.label}</p>
+                  <p className="text-xs uppercase tracking-wide text-muted">
+                    {fact.label}
+                  </p>
                   <p className="font-medium text-text">{fact.value}</p>
                 </div>
               </div>
